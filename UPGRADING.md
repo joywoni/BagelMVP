@@ -3,6 +3,12 @@
 This guide covers upgrading your existing game project repo from one version
 of the template to the next.
 
+> **Template source:** `gentlius/Claude-Code-Game-Studios` — our own copy, which
+> carries local modifications on top of the upstream template
+> (`Donchitos/Claude-Code-Game-Studios`). Pull from ours, not upstream, or those
+> modifications are lost. The repo is private, so the commands below use SSH and
+> require access.
+
 **Find your current version** in your git log:
 ```bash
 git log --oneline | grep -i "release\|setup"
@@ -34,7 +40,7 @@ Best when: you cloned the template and have your own commits on top of it.
 
 ```bash
 # Add the template as a remote (one-time setup)
-git remote add template https://github.com/Donchitos/Claude-Code-Game-Studios.git
+git remote add template git@github.com:gentlius/Claude-Code-Game-Studios.git
 
 # Fetch the new version
 git fetch template main
@@ -59,7 +65,7 @@ Best when: you only want one specific feature (e.g., just the new skill, not
 the full update).
 
 ```bash
-git remote add template https://github.com/Donchitos/Claude-Code-Game-Studios.git
+git remote add template git@github.com:gentlius/Claude-Code-Game-Studios.git
 git fetch template main
 
 # Cherry-pick the specific commit(s) you want

@@ -173,7 +173,7 @@ winget install --id Gyan.FFmpeg --source winget --accept-package-agreements --ac
 
 ## 라이선스
 
-- **코드**: (사용자 결정)
+- **코드**: MIT License — `LICENSE` 참조. © 2026 Studio Oriens
 - **BGM**: CC0 Public Domain (Seth_Makes_Sounds) — `assets/audio/LICENSE_REGISTRY.md` 참조
 - **기타 자산**: 모두 procedural (Web Audio synthesis + Pixi Graphics)
 

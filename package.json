@@ -3,6 +3,7 @@
   "version": "0.1.0-proto.1",
   "type": "module",
   "private": true,
+  "license": "MIT",
   "description": "POP! — Pang modernization for HTML5 mobile web",
   "scripts": {
     "dev": "vite",
